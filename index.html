@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>display</title>
+    <link rel="stylesheet" href="./assects/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assects/css/normalize.css">
+    <link rel="stylesheet" href="./custom css file/overlay.css">
+
+</head>
+<body>
+    <div class="container over ">
+        <h1>welcome to bootstrap course-tamil</h1>
+        <p>lets start learning bootstrap.</p>
+      </div>
+      <div class="container change">
+       
+     <p class="h1"> what is  display class ?</p>
+     <p class="custom">display  is used for big font 
+         for example your using h1 tag that size is not enough 
+        you can use display class in that display class <br><br>
+        types in  display class: 
+          <br> 
+        <br> display-1  
+        <br> display-2  
+    <br>    display-3
+    <br>     display-4 </p>
+    <p class="custom" >codeing part :</p>
+    <br>
+
+     <div class="container-sm pro">
+         <div class="hide">
+             
+         <!--   <p class="display-1">example</p>
+            <p class="display-2">example</p>
+            <p class="display-3">example</p>
+            <p class="display-4">example</p>
+         -->
+
+        </label>
+         </div>
+     </div>
+     
+     <br><br>
+     <p class="h4">output:</p>
+     <p class="display-1">example</p>
+     <p class="display-2">example</p>
+     <p class="display-3">example</p>
+     <p class="display-4">example</p>
+     <br><br>
+     <h1 class="display-4">what is lead class ?</h1>
+     <br>
+     <h4>lead is the class ,
+         it   uses for font style only ides for font style
+          we will use for paragraph tag to match the display class and 
+          anfd p tag  
+     </h4>
+
+</body>
+<style>
+
+    .change{
+         width: 670px;
+   min-height: 400px;
+    background-color: rgb(245, 107, 125);
+    }
+    .hide>p{
+        margin: 27px;
+    }
+    .hide{
+        color: tomato;
+        overflow-y: scroll;
+        width: 300px;
+        height: 260px;
+        background-color: transparent;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        align-content: center;
+        text-transform: uppercase;
+        background-color: transparent;
+        position: relative;
+        left: 54px;
+        top: 23px;
+        justify-content: space-evenly;
+    }
+.pro{
+    background-color: rgb(224, 219, 219);
+    width: 400px;
+    height: 300px;
+}
+    body
+    {
+        background-color: rgb(255, 0, 85);
+    }
+   
+    .bg{
+   border: 2px solid red;
+    }
+    .custom{
+        font-size: 25px;
+    }
+</style>
+<script src="./assects/js/bootstrap.min.js"></script>
+<script src="./assects/js/jquery.min.js"></script>
+<script>
+    var hide=document.querySelector('.hide');
+    var p=document.createElement('p');
+    var p1=document.createElement('p');
+    var p2=document.createElement('p');
+    var p3=document.createElement('p');
+    var br=document.createElement('br');
+    let out1='<p class="display-1">example</p>';
+    let out2='<p class="display-2">example</p>';
+    let out3='<p class="display-3">example</p>';
+    let out4='<p class="display-4">example</p>';
+    
+    
+    let go1=p1.innerText=out1;
+    let go2=p2.innerText=out2;
+    let go3=p3.innerText=out3;
+    let go4=p.innerText=out4;
+   //hide.innerHTML='<br>';
+   // hide.textContent=out2;
+   // hide.innerHTML='<br>';
+   // hide.textContent=out3;
+   // hide.innerHTML='<br>';
+   // hide.textContent=out4;
+   // hide.innerHTML='<br>';
+   var br1=document.createElement('br');
+   var br2=document.createElement('br');
+   var br3=document.createElement('br');
+   hide.appendChild(p1);
+   hide.appendChild(br1);
+   hide.appendChild(p2);
+   hide.appendChild(br2);
+   hide.appendChild(p3);
+   hide.appendChild(br3);
+   hide.appendChild(p);
+</script>
+</html>
