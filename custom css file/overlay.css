@@ -1,0 +1,28 @@
+body{
+    background-color: rgb(255, 0, 98);
+}
+
+.over{
+    border: 3px solid white;
+    width: 670px;
+    height: 300px;
+   color: white;
+}
+.conent{
+    width: 670px;
+   min-height: 400px;
+    background-color: rgb(228, 203, 252);
+}
+.bg{
+    border: 2px solid rgb(235, 180, 180);
+   
+}
+.colr{
+    background-color: rgb(218, 185, 255);
+    border: 1px solid rgb(185, 142, 235);
+    
+
+}
+.grid-layout{
+    border: yellow solid 2px !important;
+}
